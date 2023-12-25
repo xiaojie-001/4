@@ -98,12 +98,12 @@ http://123.60.111.12/migu.php?id=xzws
 http://123.60.111.12/migu.php?id=hinws
 #EXTINF:-1  tvg-id="南京卫视" tvg-name="南京卫视" tvg-logo="https://epg.112114.xyz/logo/南京卫视.png" group-title="卫视",南京卫视
 http://live.nbs.cn/channels/njtv/sbpd/500k.m3u8?zjiangsd#http://live.nbs.cn/channels/njtv/sbpd/m3u8:500k/live.m3u8
-#EXTINF:-1 group-title="卫视",神东卫视
-http://live.sfrmt.com:85/live/zhpd.m3u8?zsicd#http://live.sfrmt.com:85/live/zhpd.m3u8
 #EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/延边卫视" tvg-id="延边卫视" tvg-name="延边卫视" group-title="卫视",延边卫视
 http://live.ybtvyun.com/video/s10006-44f040627ca1/index.m3u8
 #EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/北京卫视" tvg-id="北京卫视" tvg-name="北京卫视" group-title="卫视",北京卫视
 https://live.sjsrm.com/bjsjs/sd/live.m3u8#http://live.sjsrm.com/bjsjs/sd/live.m3u8?zbeid
+#EXTINF:-1 group-title="卫视",神东卫视
+http://live.sfrmt.com:85/live/zhpd.m3u8?zsicd#http://live.sfrmt.com:85/live/zhpd.m3u8
 #EXTINF:-1 tvg-id="四海钓鱼" tvg-name="四海钓鱼" tvg-logo="https://epg.112114.xyz/logo/四海钓鱼.png" group-title="卫视",四海钓鱼
 http://123.60.111.12/migu.php?id=shdy
 #EXTINF:-1 tvg-id="江苏教育" tvg-name="江苏教育" tvg-logo="https://epg.112114.xyz/logo/江苏教育.png" group-title="卫视",江苏教育
@@ -455,11 +455,33 @@ http://183.64.181.25:40023/rongchang01.m3u8
 https://tvlive.ugoshop.com/ugotvlive/ssgotv.m3u8?auth_key=2312509421-0-0-6642ec3645caa943da6855a9ef7e2129
 #EXTINF:-1,青海都市频道
 http://stream.qhbtv.com/qhds/sd/live.m3u8?_upt=b5e7831b1701517902
-#EXTINF:-1,香港财经
-http://202.69.67.66:443/webcast/bshdlive-mobile/playlist.m3u8
-#EXTINF:-1,澳门体育
-http://61.244.22.5/ch4/sport_ch4.live/chunklist_w1501922041.m3u8
-#EXTINF:-1,神东卫视
-http://live.sfrmt.com:85/live/zhpd.m3u8?zsicd#http://live.sfrmt.com:85/live/zhpd.m3u8
 #EXTINF:-1,潞城电视台
 http://59.48.42.6:62204/lucheng.m3u8?zshanxd
+#EXTINF:-1 tvg-id="香港财经" tvg-name="香港财经" group-title="港·澳",香港财经
+http://202.69.67.66:443/webcast/bshdlive-mobile/playlist.m3u8
+#EXTINF:-1 tvg-id="澳门体育" tvg-name="澳门体育" group-title="港·澳",澳门体育
+http://61.244.22.5/ch4/sport_ch4.live/chunklist_w1501922041.m3u8
+#EXTINF:-1 group-title="港·澳",ANTV
+http://antvlive.ab5c6921.cdnviet.com/antv/playlist.m3u8
+#EXTINF:-1 group-title="港·澳",大爱1台
+https://pulltv1.wanfudaluye.com/live/tv1.m3u8
+#EXTINF:-1 group-title="港·澳",大爱2台
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/唯心电视台" tvg-id="唯心电视台" tvg-name="唯心电视台" group-title="台湾",唯心电视台
+http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/playlist.m3u8
+#EXTINF:-1 group-title="港·澳",香港佛陀
+http://js1.amtb.cn/liveedge/_definst_/livetv/chunklist.m3u8
+#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/香港卫视" tvg-id="香港卫视" tvg-name="香港卫视" group-title="港·澳",香港卫视
+http://zhibo.hkstv.tv/livestream/mutfysrq.flv
+#EXTINF:-1 group-title="港·澳",香港卫视文旅
+https://myun-hw-s3.myun.tv/melj80jz/lxx27bol/1551285536499984128.m3u8
+#EXTINF:-1 group-title="港·澳",耀才财经
+http://202.69.67.66:443/webcast/bshdlive-mobile/playlist.m3u8
+#EXTINF:-1 group-title="港·澳",耀才财经
+http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8?wowzasessionid=64000
+#EXTINF:-1 group-title="港·澳",耀才财经
+https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
+#EXTINF:-1 group-title="港·澳",耀才财经台
+http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
+#EXTINF:-1 group-title="港·澳",中国环球电视
+http://live.cgtn.com/500/prog_index.m3u8
